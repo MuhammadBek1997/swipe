@@ -1,6 +1,264 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+}
+
+.N2 h1 {
+    font-weight: 400;
+    font-size: 60px;
+    margin-left: 6vw;
+    margin-top: 2vw;
+}
+
+.N2 {
+    display: flex;
+    margin-top: 4vw;
+    margin-left: 3vw;
+}
+
+.N3 {
+    width: 50vw;
+    height: 2px;
+    margin-left: 16vw;
+    margin-top: -9.5vw;
+}
+
+.N4 {
+    height: 24vw;
+    width: 30vw;
+    margin-left: -3vw;
+    border: 1px solid none;
+    background: url(./image/aylana-sariq.png) no-repeat;
+    background-size: cover, cover;
+    background-position: center, center;
+    background-blend-mode: color-burn;
+}
+.N4 h1{
+    margin-left: 11vw;
+}
+.N5 {
+    margin-left: 3vw;
+    margin-top: 15vw;
+    display: grid;
+}
+
+.N6 {
+    height: 24vw;
+    width: 20vw;
+    border: 1px solid none;
+    background: url(./image/teshig-aylana-kok.png) no-repeat;
+    margin-left: 45vw;
+}
+
+.N7 {
+    margin-left: -15vw;
+}
+
+.N7 p {
+    margin-top: 1vw;
+}
+
+.N7 input {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 1vw;
+    height: 3vw;
+    color: gray;
+    box-shadow: gray;
+    border-radius: 8px;
+    width: 26vw;
+}
+
+.N7 button {
+    height: 3vw;
+    width: 26vw;
+    margin-top: 1vw;
+    border: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #6259EA;
+}
+
+.N8 textarea {
+    height: 4vw;
+    border-radius: 8px;
+    color: gray;
+    width: 26vw;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.N9 {
+    width: 23vw;
+    margin-top: 25vw;
+    margin-left: 6vw;
+    border: 1px solid none;
+}
+
+.N9 p {
+    color: #ABAABB;
+    margin-top: 1vw;
+}
+
+.N10 p {
+    color: #2D2B5C;
+}
+
+.N14 {
+    display: flex;
+    margin-left: 6vw;
+    font-size: 23px;
+    font-weight: 100;
+    margin-top: 2vw;
+}
+
+.N13 button {
+    margin-left: 55vw;
+    padding: 1vw;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.N15 {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.N16 {
+    background: #2D2B5C;
+    display: flex;
+    color: white;
+}
+
+.N17 {
+    margin-left: 35vw;
+}
+
+.N17 p {
+    margin-top: 1vw;
+}
+
+.N18 {
+    margin-left: 45vw;
+    margin-top: -8.8vw;
+
+}
+
+.N18 p {
+    margin-top: 1vw;
+}
+
+.N19 {
+    margin-left: 55vw;
+    margin-top: -9vw;
+
+}
+
+.N19 p {
+    margin-top: 1vw;
+}
+
+.N20 {
+    display: flex;
+}
+
+.N21 {
+    display: grid;
+    margin-left: 4vw;
+}
+
+.N21 p {
+    color: #6259EA;
+}
+
+.N22 img {
+    margin-left: -22vw;
+    margin-top: 0.1vw;
+}
+
+.N21 {
+    margin-top: 4vw;
+}
+
+.N23 {
+    margin-top: -3vw;
+    border: 1px solid none;
+    width: 25vw;
+}
+
+.N25 {
+    margin-top: 13vw;
+    margin-left: -12.9vw;
+}
+
+.N26 {
+    display: flex;
+    margin-top: 5vw;
+}
+
+.N27 {
+    display: flex;
+    margin-top: 1vw;
+}
+
+.N27 p {
+    margin-left: 0.3vw;
+    margin-top: 0.3vw;
+}
+
+.N27 img {
+    margin-left: 0.3vw;
+    margin-top: 0.3vw;
+}
+
+.N28 {
+    display: flex;
+    margin-top: 1vw;
+}
+
+.N29 {
+    display: flex;
+    margin-top: 1vw;
+}
+
+.N30 {
+    margin-left: -48vw;
+    height: 2px;
+    margin-top: 25vw;
+    background: white;
+    width: 48vw;
+    border-radius: 1px solid;
+
+}
+
+.N31 {
+    margin-left: -25vw;
+    height: 2px;
+    margin-top: 9vw;
+    background: white;
+    width: 48vw;
+    border-radius: 1px solid;
+}
+
+.N32 {
+    height: 20px;
     box-sizing: border-box;
 }
 
