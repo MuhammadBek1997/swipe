@@ -1,0 +1,92 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    height: 842px;
+}
+
+
+
+.umumiy {
+    background: url(./images/triugolnik.png ) 0 0 no-repeat;
+    min-height: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 200px;
+
+
+
+
+}
+
+.div1 {
+    margin-bottom: 550px;
+    margin-left: 100px;
+}
+
+.div2 {
+    padding-right: 200px;
+}
+
+.inner {
+    width: 150%;
+    height: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #E7E5FF;
+    padding-right: 200px;
+
+}
+
+.inner h1 {
+    margin-bottom: 30px;
+}
+
+.our {
+    display: flex;
+    gap: 1000px;
+}
+
+.know {
+    background: url(./images/kube.png) 0 300px no-repeat,
+        url(./images/cyrcle.png) 500px 500px no-repeat,
+        url(./images/cyrcle.png) 1400px no-repeat;
+
+
+    min-width: 235px;
+    min-height: 100vh
+}
+
+.plans {
+    background: url(./images/drug.png) 50px -50px no-repeat,
+        url(./images/cyrcle.png) 1200px 200px no-repeat;
+
+
+
+
+    min-width: 423px;
+    min-height: 423px;
+}
+
+.glasss {
+    margin-left: 3vw;
+    margin-top: 3vw;
+    backdrop-filter: blur(40px);
+    height: fit-content;
+    width: fit-content;
+}
+
+.cont {
+    backdrop-filter: blur(20px);
+    width: 80%;
+    height: 120%;
+}
